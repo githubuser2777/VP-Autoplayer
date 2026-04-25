@@ -1,0 +1,51 @@
+#META {"bpm": 91, "subdiv": 2.12, "note": "Transposition: -10"}
+s f j s| f j f
+a f j a| f h f
+s f j s| f j f
+a f j a| f h f
+[s6] f j s| f [j7] f
+[a3] f j a| f [h3] f
+[s6] f j s| f [j7] f
+[a3] f [j3] a3 [f3] [h3] [f3]
+[sjf6] [sjf] [sjf] [sjf] [sjf] [sjf] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa] [hfa] [hfa] [hfa3] [hfa]
+[sjf6] [sjf] [sjf] [sjf] [sjf] [sjf] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa3]||[hfa3]|
+[sjf6] [sjf] [sjf] [sjf]6[sjf6] [sjf6] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa3] [hfa3] [hfa] [hfa3] [hfa]
+[sjf6] [sjf] [sjf] [sjf]6[sjf6] [sjf6] [sjf7] [sjf]
+[jfa3] [jfa] [jfa3] [hfa]3[hfa3] [hfa3] [hfa3] [hfa3]
+sfjsfjsfjsfjsfjfafjafjafhafhafhf
+sfjsfjsfjsfjsfjfafjafjafhafhafhf
+[s6][f6][j6]s[f6]jsfjsfj[s7]fjf
+[a3][f3][j3]a[f3]jafhafh[a3]fhf
+[s6][f6][j6]s[f6]jsfjsfj[s7]fjf
+[a3][f3][j3]a[f3]ja[f3][h3]a[f3]h[a3]f[h3]f
+[sjf6] [sjf] [sjf] [sjf] [sjf] [sjf] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa] [hfa] [hfa] [hfa3] [hfa]
+[sjf6] [sjf] [sjf] [sjf] [sjf] [sjf] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa] [hfa] [hfa]3[hfa3] [hfa3]
+[sjf6] [sjf] [sjf] [sjf]6[sjf6] [sjf6] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa] [hfa] [hfa] [hfa3] [hfa]
+[sjf6] [sjf] [sjf] [sjf]6[sjf6] [sjf6] [sjf7] [sjf]
+[jfa3] [jfa] [jfa3] [hfa]3[hfa3] [hfa3] [hfa3] [hfa3]
+[sjf6]| |[jfa7]| [hfa3]| |[uf] [sl] [oh]
+[sjf6]| |[jfa7]| [hfa3]| [hfa3] [hfa3][hfa3] [hfa3] [hfa3] [hfa3]
+[sjf6]| |[jfa7]| [hfa3]| |[uf] [sl] [oh]
+[sjf6]| |[jfa7]| [hfa3]| [hfa3] [hfa3][hfa3] [hfa3] [hfa3] [hfa3]
+[j6] [f6] [s6] [j6] [f6] [s6] [j7] [f7]
+[j3] [f3] [a3] [h3] [f3] [a3] [h3] [f3]
+[j6] [f6] [s6] [j6] [f6] [s6] [j7] [f7]
+[j3] [f3] [a3] [h3] [f3] [a3] [h3] [f3]
+[j6]fsj[f6]sj[f6][s6]j[f6]s[j7]fsf
+[j3]faj[f3]ah[f3][a3]h[f3]a[h3]faf
+[j6]fsj[f6]sj[f6][s6]j[f6]s[j7]fsf
+[j3]f[a3]j[f3]a[h3]f[a3]hfah|
+[sjf6] [sjf] [sjf] [sjf] [sjf] [sjf] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa] [hfa] [hfa] [hfa3] [hfa]
+[sjf6] [sjf] [sjf] [sjf] [sjf] [sjf] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa] [hfa] [hfa]3[hfa3] [hfa3]
+[sjf6] [sjf] [sjf] [sjf] [sjf] [sjf] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa] [hfa] [hfa] [hfa3] [hfa]
+[sjf6] [sjf] [sjf] [sjf] [sjf] [sjf] [sjf7] [sjf]
+[jfa3] [jfa] [jfa] [hfa] [hfa] [hfa] [hfa3]

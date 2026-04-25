@@ -1,0 +1,68 @@
+#META {"bpm": 91, "subdiv": 2.12, "note": ""}
+[8yo] w t [wp] [8o]|
+[8tu] w t w 8|
+[8yo] w t [wp] [8o]|
+[8tu] w t w 8|
+[5id] 9 w r [wd]|
+[5ia] 9 w r w|
+[8us] w t u [ts] w
+[8uo] w t u t|
+[4ip] 8 q e [qp] 8
+[4is] 8 q [ea] [5p]|
+[8uo] w t [up] [to] w
+[8tu] 0 w 5 8|
+[4ip] 8 q e [qp] 8
+[4is] 8 q [ea] [5p]|
+[8uo] w t [up] [to] w
+[8tu] 5 0 w 8|
+[4id] 8 q e [qd] 9
+[5ag] 9 w [rd] [wa] 9
+[8us] w t u t w [tof]||
+[tus]|t o u|
+[wro]|w i y|
+[80t]|8 0 w t u||
+[8yo] w t [wp] [8o]|
+[8tu] w t w 8|
+[8yo] w t [wp] [8o]|
+[8tu] w t w 8|
+[5id] 9 w r [wd]|
+[5ia] 9 w r w|
+[8us] w t u [ts] w
+[8uo] w t u t|
+[4ip] 8 q e [qp] 8
+[4is] 8 q [ea] [5p]|
+[8uo] w t [up] [to] w
+[8tu] 0 w 5 8|
+[4ip] 8 q e [qp] 8
+[4is] 8 q [ea] [5p]|
+[8uo] w t [up] [to] w
+[8tu] 5 0 w 8|
+[4id] 8 q e [qd] 9
+[5ag] 9 w [rd] [wa] 9
+[8us] w t u t w [tof]||
+[tus]|t o u|
+[wro]|w i y|
+[80t]|8 0 w t u||
+[8of] w t [wpg] [8of]|
+[8us] w [ti] [wy] [8u]|
+[8of] w t [wpg] [8of]|
+[8us] w [ti] [wy] [8u]|
+[5id] 9 [wp] r [yid] r
+[5ya] 9 [wi] [rp] [wya]|
+[8us] w [to] u [tus] w
+[8uo] w [ts] [up] [to]|
+[4ps] 8 q e [qps] 8
+[4sg] 8 q [eaf] [5ps]|
+[8of] w t [upg] [tof] w
+[8us] 0 w 5 8|
+[4ps] 8 q e [qps] 8
+[4sg] 8 q [eaf] [5ps]|
+[8os] w t [ups] [tos] w
+[8us] 5 0 w 8|
+[4id] 8 [qp] e [qid] 9
+[5og] 9 [wa] [rf] [wod] 9
+[8us] w t u t w [tof]||
+[8us]|y o [tu]|
+[5ro]|e i [wy]|
+[10t] 5 8 9 0 w t y u|o|
+[fl]

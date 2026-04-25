@@ -1,0 +1,41 @@
+#META {"bpm": 160, "subdiv": 1.73, "note": "Transposition: 4"}
+
+l|||l|||l|||
+s|||k|||k|||
+k|||a|||j|||
+j|||j|||p|||
+g|||g|||f|||
+l|
+180w[0l]80w180w[0l]80w180w[0l]80w180w[0s]80w
+[7a]70w[0k]70w770w[0k]70w770w[0k]70w770w[0a]70w
+[6p]680[8j]6806680[8j]6806680[8j]6806680[8p]680
+[4i]68q[8g]68q468q[8g]68q468q[8f]68q468ql|||
+uu[15s][8o]0[wi]0[8u]0[wu][1s][8o]0[wi]0[8u]0[wu]
+[7oa][7up][0oa]w070w770w07[0f][wf]
+[7f][7d][0d][wd]0[7s]0[wd]77[0s]w[0d]7[0f][wd]
+[6s]6808680668086[8s]0[6s][6o]8[0o]868[0u]
+[6o]6[8tu]0[8o]6[8u][0ip]4[6s]8q868q468q86[8s][qs]
+[4s][6o]8[qo]86[8u]q[4o]6[8u]q[8o]6[8p]o
+1[8u]0w0[8o][0o][wo][1o]8[0o][wo][0s]8[0o]w
+[1u]80w0[8o][0o][wo][1o]8[0o][wo][0s]8[0ua][wp]
+[7oa]70w0[7oa][0sf][wad][7sf]7[0sf][wad][0sf]7[0ad]w
+[7ps]70w0[7p][0us][wp][7us]7[0us][wp][0uad]7[0uad][ws]
+66808[6p][8us][0p][6us]6[8us][0p][8uad]6[8uad][0s]
+66808[6p][8us][0p][6us]6[8us][0p][8uad]6[8id][0s]
+4686[eo][qo][8o]6[eo]q[8u]6[eu]| ooo o u [yp]| [uo]|
+[4f]68qs uu[15s][8o]0[wi]0[8u]0[wu][1s][8o]0[wi]0[8u]0[wu]
+[7oa][7up][0oa]w070w770w07[0f][wf]
+[7f][7d][0d][wd]0[7s]0[wd]77[0s]w[0d]7[0f][wd]
+[6s]6808680668086[8s]0[6s][6o]8[0o]868[0u]
+[6o]6[8tu]0[8o]6[8u][0ip]4[6s]8q868 [15]80w0[8o][0o][wo]
+[1o]8[0o][wo][0s]8[0o]w[1u]80[wo][0o][8o]
+[1o]8[0o][wo][0s]8[0ua][wp][7oa]70w0[7oa][0sf][wad]
+[7sf]7[0sf][wad][0sf]7[0ad]w[6ps]680868[0p][8us][6p]
+[6us]6[8us][0p][8uad]6[8uad][0s]66808[6p][8us][0p]
+[6us]6[8us][0p][8uad]6[8uad][0s]66808[6p][8us][0p]
+[6us]6[8us][0p][8uad]6[8id][0s]468q868q[4h]6[8h][qh]8[6h]8[qf]
+48[ef]|||
+l|||
+l|||
+l|||
+s
