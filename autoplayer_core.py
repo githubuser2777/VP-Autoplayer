@@ -22,7 +22,14 @@ __all__ = [
 ]
 
 # ───────── constants ────────────────────────────────────────────────
-DATA_FILE = Path(__file__).with_name("vp_autoplayer.json")
+def _config_path() -> Path:
+    # In PyInstaller one-file builds, `__file__` points at the temporary extract
+    # directory. Use the executable directory instead so settings persist.
+    if getattr(sys, "frozen", False):
+        return Path(sys.executable).with_name("vp_autoplayer.json")
+    return Path(__file__).with_name("vp_autoplayer.json")
+
+DATA_FILE = _config_path()
 
 SHIFT_MAP: Dict[str, str] = {
     "!": "1", "@": "2", "#": "3", "$": "4", "%": "5", "^": "6",
@@ -112,15 +119,60 @@ CFG = Config()
 if DATA_FILE.exists():
     try:
         raw = json.loads(DATA_FILE.read_text("utf-8"))
+        allowed = set(Config.__dataclass_fields__.keys())  # type: ignore[attr-defined]
         for k, v in raw.items():
-            setattr(CFG, k, Path(v) if k in ("folder", "sheet") else v)
+            if k not in allowed:
+                continue
+
+            if k in ("folder", "sheet"):
+                if v is None:
+                    setattr(CFG, k, None)
+                elif isinstance(v, str) and v.strip():
+                    setattr(CFG, k, Path(v))
+                continue
+
+            if k == "bpm":
+                try:
+                    setattr(CFG, k, int(v))
+                except Exception:
+                    pass
+                continue
+
+            if k in ("subdiv", "human", "hold"):
+                try:
+                    setattr(CFG, k, float(v))
+                except Exception:
+                    pass
+                continue
+
+            if k in ("auto_pause", "dark"):
+                setattr(CFG, k, bool(v))
+                continue
+
+            if k == "toggle":
+                if isinstance(v, str) and v.strip():
+                    setattr(CFG, k, v.strip())
+                continue
+
+            if k == "target_title":
+                setattr(CFG, k, (v.strip() if isinstance(v, str) and v.strip() else None))
+
+        if not isinstance(CFG.folder, Path) or not CFG.folder.exists():
+            CFG.folder = Path.cwd()
+        if isinstance(CFG.sheet, Path) and not CFG.sheet.exists():
+            CFG.sheet = None
     except Exception as exc:
         print("⚠ settings load:", exc, file=sys.stderr)
 
 def save_cfg() -> None:
-    DATA_FILE.write_text(json.dumps(
-        {k: (str(v) if isinstance(v, Path) else v) for k, v in asdict(CFG).items()},
-        indent=2))
+    DATA_FILE.write_text(
+        json.dumps(
+            {k: (str(v) if isinstance(v, Path) else v) for k, v in asdict(CFG).items()},
+            indent=2,
+            ensure_ascii=False,
+        ) + "\n",
+        encoding="utf-8",
+    )
 
 # ───────── keyboard helpers ─────────────────────────────────────────
 def press(ch: str):

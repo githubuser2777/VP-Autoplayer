@@ -80,7 +80,12 @@ class App(tk.Tk):
         self.title("VP Autoplayer")
         self.attributes("-topmost", True)
         self.minsize(500, 565)
-        self.iconbitmap(default=Path(__file__).with_name("Icon.ico"))
+        try:
+            icon_path = Path(__file__).with_name("Icon.ico")
+            if icon_path.exists():
+                self.iconbitmap(default=str(icon_path))
+        except Exception:
+            pass
 
         scale = self._detect_scaling()*1.2
         self.tk.call("tk", "scaling", scale)

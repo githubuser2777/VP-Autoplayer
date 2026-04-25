@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pyd
+*.pyo
+*.log
+
+.venv/
+venv/
+ENV/
+
+build/
+dist/
+*.egg-info/
+
+# Local user config (auto-generated at runtime)
+vp_autoplayer.json
+

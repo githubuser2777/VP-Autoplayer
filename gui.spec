@@ -1,11 +1,17 @@
 # -*- mode: python ; coding: utf-8 -*-
 
+import os
+
+
+icon_file = "Icon.ico"
+has_icon = os.path.exists(icon_file)
+
 
 a = Analysis(
     ['gui.py'],
     pathex=[],
     binaries=[],
-    datas=[('Icon.ico', '.')],
+    datas=[(icon_file, '.')] if has_icon else [],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},
@@ -35,5 +41,5 @@ exe = EXE(
     target_arch=None,
     codesign_identity=None,
     entitlements_file=None,
-    icon=['Icon.ico'],
+    icon=[icon_file] if has_icon else None,
 )
